@@ -18,7 +18,12 @@ gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
-
+# Use jquery as the JavaScript library
+gem 'jquery-rails'
+# jQuery UI for the Rails asset pipeline
+gem 'jquery-ui-rails'
+# Use Awesome icons mada faca
+gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.2'
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
@@ -29,9 +34,24 @@ gem 'jbuilder', '~> 2.5'
 # gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
-
+#let your Gemfile do the talking
+gem 'haml-rails'
+# JSON implementation for Ruby
+gem 'json'
+# Makes http fun again! ja x2
+gem 'httparty'
+# Parse CSS and add vendor prefixes to CSS rules using values from the Can I Use website.
+gem 'autoprefixer-rails', '~> 7.2', '>= 7.2.3'
+# Sass makes CSS fun again. Sass is an extension of CSS, adding nested rules, variables, mixins, selector inheritance, and more. It's translated to well-formatted, standard CSS using the command line tool or a web-framework plugin.
+gem 'sass', '~> 3.5', '>= 3.5.4'
+# The most popular HTML, CSS, and JavaScript framework for developing responsive, mobile first projects on the web. http://getbootstrap.com
+gem 'bootstrap', '~> 4.0.0.beta2.1'
+# Simple, Heroku-friendly Rails app configuration using ENV and a single YAML file
+gem 'figaro'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
+# Mailgun's Official Ruby Library
+gem 'mailgun-ruby', '~>1.1.6'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console

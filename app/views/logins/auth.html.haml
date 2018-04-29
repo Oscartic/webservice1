@@ -1,0 +1,15 @@
+#top-webservice1
+.container.mt-4
+  .row
+    .col
+      %h1 Logins#login
+      %p Find me in app/views/logins/login.html.erb
+  .row.justify-content-center
+    .col-4
+      %img{'src' => "data:image/jpg;base64,#{@uploaded_file}", 'class' => 'img-fluid'}
+      %hr
+    .col-6
+      %h3= @email
+      %strong #{@response.code} - #{@response.message}
+      %pre= @response.body
+

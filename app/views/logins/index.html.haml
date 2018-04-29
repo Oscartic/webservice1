@@ -1,0 +1,16 @@
+#top-webservice1
+.container.mt-4
+  .row
+    .col
+      %h1 Webservice1
+      %h3 Access Form - Challenge ACID
+      = render partial: 'layouts/messages'
+
+      = form_tag({action: 'auth'}, multipart: true) do
+        .form-group
+          = email_field_tag :mail, nil, placeholder: 'Mail', class: 'form-control'
+        .form-group
+          %label{'for' => 'img_upload'} Imágen de acceso biométrico
+          = file_field_tag(:image, id: 'img_upload', class: 'form-control-file')
+        = submit_tag('Enviar', class: 'btn btn-dark')
+      %hr

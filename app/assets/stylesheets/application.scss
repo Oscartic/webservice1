@@ -12,4 +12,11 @@
  *
  *= require_tree .
  *= require_self
+ *= require font-awesome
  */
+@import "bootstrap";
+#top-webservice1 {
+  width: 100%;
+  height: 10px;
+  background-color: #a270c1;
+}
