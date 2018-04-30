@@ -8,8 +8,8 @@ end
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.6'
-# Use sqlite3 as the database for Active Record
-gem 'sqlite3'
+# Pg is the Ruby interface to the {PostgreSQL RDBMS}[http://www.postgresql.org/]
+gem 'pg'
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
 # Use SCSS for stylesheets
@@ -52,8 +52,11 @@ gem 'figaro'
 # gem 'capistrano-rails', group: :development
 # Mailgun's Official Ruby Library
 gem 'mailgun-ruby', '~>1.1.6'
-
+# Simple Rails app configuration
+gem 'figaro'
 group :development, :test do
+  # Use sqlite3 as the database for Active Record
+  gem 'sqlite3'
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   # Adds support for Capybara system testing and selenium driver

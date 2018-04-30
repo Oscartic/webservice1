@@ -1,6 +1,5 @@
 class Login
   include ActiveModel::Model
-  include ActiveModel::Validations
   attr_accessor :mail, :image
   validates_presence_of :mail, :image, presence: true
 

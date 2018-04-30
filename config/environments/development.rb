@@ -29,6 +29,22 @@ Rails.application.configure do
   # Don't care if the mailer can't send.
   config.action_mailer.raise_delivery_errors = false
 
+  # config. SEND eMails
+  Rails.application.routes.default_url_options[:host] = 'www.orbticapp.com'
+  config.action_mailer.raise_delivery_errors = false
+  config.action_mailer.delivery_method = :smtp
+  config.action_mailer.perform_deliveries = true
+  config.action_mailer.default :charset => 'utf8'
+  ActionMailer::Base.smtp_settings = {
+      :user_name => ['SENDGRID_USERNAME'],
+      :password => ['SENDGRIG_PASSWORD'],
+      :address => 'smtp.sendgrid.com',
+      :port => 587,
+      :authentication => :plain,
+      :enable_starttls_auto => true
+  }
+  # end send config.
+
   config.action_mailer.perform_caching = false
 
   # Print deprecation notices to the Rails logger.
