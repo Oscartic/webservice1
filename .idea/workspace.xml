@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d5dbbcf5-cd5a-40cb-9c51-26673ed3b432" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/views/user_notifier/fail_login_attempt_notification.html.haml" />
-      <change beforePath="$PROJECT_DIR$/.idea/.generators" afterPath="$PROJECT_DIR$/.idea/.generators" />
-      <change beforePath="$PROJECT_DIR$/.idea/webservice1.iml" afterPath="$PROJECT_DIR$/.idea/webservice1.iml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/logins_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/logins_controller.rb" />
-      <change beforePath="$PROJECT_DIR$/app/mailers/login_notification_mailer.rb" afterPath="$PROJECT_DIR$/app/mailers/login_notification_mailer.rb" />
-      <change beforePath="$PROJECT_DIR$/app/views/logins/auth.html.haml" afterPath="$PROJECT_DIR$/app/views/logins/auth.html.haml" />
-      <change beforePath="$PROJECT_DIR$/config/environments/production.rb" afterPath="$PROJECT_DIR$/config/environments/production.rb" />
-    </list>
+    <list default="true" id="d5dbbcf5-cd5a-40cb-9c51-26673ed3b432" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
     <ignored path="$PROJECT_DIR$/public/system/" />
@@ -347,15 +336,15 @@
       <updated>1524936376981</updated>
       <workItem from="1524936378256" duration="539000" />
       <workItem from="1524937144291" duration="20225000" />
-      <workItem from="1525068792273" duration="6396000" />
+      <workItem from="1525068792273" duration="6579000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27160000" />
+    <option name="totallyTimeSpent" value="27343000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="732" extended-state="6" />
+    <frame x="0" y="23" width="1280" height="730" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1875" sideWeight="0.49490538" order="0" side_tool="false" content_ui="combo" />
