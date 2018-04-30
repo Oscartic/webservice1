@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d5dbbcf5-cd5a-40cb-9c51-26673ed3b432" name="Default" comment="" />
+    <list default="true" id="d5dbbcf5-cd5a-40cb-9c51-26673ed3b432" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/views/user_notifier/fail_login_attempt_notification.html.haml" />
+      <change beforePath="$PROJECT_DIR$/.idea/.generators" afterPath="$PROJECT_DIR$/.idea/.generators" />
+      <change beforePath="$PROJECT_DIR$/.idea/webservice1.iml" afterPath="$PROJECT_DIR$/.idea/webservice1.iml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/logins_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/logins_controller.rb" />
+      <change beforePath="$PROJECT_DIR$/app/mailers/login_notification_mailer.rb" afterPath="$PROJECT_DIR$/app/mailers/login_notification_mailer.rb" />
+      <change beforePath="$PROJECT_DIR$/app/views/logins/auth.html.haml" afterPath="$PROJECT_DIR$/app/views/logins/auth.html.haml" />
+      <change beforePath="$PROJECT_DIR$/config/environments/production.rb" afterPath="$PROJECT_DIR$/config/environments/production.rb" />
+    </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
     <ignored path="$PROJECT_DIR$/public/system/" />
@@ -15,22 +26,27 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="webservice1" />
+  </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="login_notification_mailer.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/mailers/login_notification_mailer.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="73" />
+            <state relative-caret-position="34">
+              <caret line="2" column="37" lean-forward="false" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="37" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="fail_login_attempt_notification.html.haml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/user_notifier/fail_login_attempt_notification.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="347">
-              <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+            <state relative-caret-position="68">
+              <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -38,15 +54,21 @@
       <file leaf-file-name="logins_controller.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/logins_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+            <state relative-caret-position="238">
+              <caret line="14" column="56" lean-forward="false" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="56" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application_mailer.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/mailers/application_mailer.rb">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="production.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-83">
+              <caret line="64" column="12" lean-forward="false" selection-start-line="64" selection-start-column="12" selection-end-line="64" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -59,13 +81,11 @@
       <list>
         <option value="$PROJECT_DIR$/app/models/validation.rb" />
         <option value="$PROJECT_DIR$/app/views/logins/index.html.erb" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/application.scss" />
         <option value="$PROJECT_DIR$/app/views/logins/login.html.haml" />
         <option value="$PROJECT_DIR$/app/views/logins/success.html.haml" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/views/logins/welcome.html.haml" />
         <option value="$PROJECT_DIR$/app/views/logins/messages.html.haml" />
-        <option value="$PROJECT_DIR$/app/views/logins/auth.html.haml" />
         <option value="$PROJECT_DIR$/app/models/login.rb" />
         <option value="$PROJECT_DIR$/app/views/logins/index.html.haml" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
@@ -73,9 +93,13 @@
         <option value="$PROJECT_DIR$/app/views/login_notification/login_attempt_notification.text.erb" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/config/application.yml" />
-        <option value="$PROJECT_DIR$/app/controllers/logins_controller.rb" />
-        <option value="$PROJECT_DIR$/app/mailers/login_notification_mailer.rb" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/application.scss" />
+        <option value="$PROJECT_DIR$/app/views/logins/auth.html.haml" />
+        <option value="$PROJECT_DIR$/config/environments/production.rb" />
+        <option value="$PROJECT_DIR$/app/mailers/login_notification_mailer.rb" />
+        <option value="$PROJECT_DIR$/app/views/user_notifier/fail_login_attempt_notification.html.haml" />
+        <option value="$PROJECT_DIR$/app/controllers/logins_controller.rb" />
       </list>
     </option>
   </component>
@@ -90,13 +114,23 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1445" />
-    <option name="height" value="957" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="642" />
+    <option name="width" value="638" />
+    <option name="height" value="800" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
@@ -123,7 +157,7 @@
               <item name="webservice1" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="javascripts" type="462c0819:PsiDirectoryNode" />
+              <item name="stylesheets" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="webservice1" type="b2602c69:ProjectViewProjectNode" />
@@ -135,19 +169,7 @@
               <item name="webservice1" type="b2602c69:ProjectViewProjectNode" />
               <item name="webservice1" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="jobs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webservice1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webservice1" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="mailers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webservice1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webservice1" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="webservice1" type="b2602c69:ProjectViewProjectNode" />
@@ -163,14 +185,21 @@
             <path>
               <item name="webservice1" type="b2602c69:ProjectViewProjectNode" />
               <item name="webservice1" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="environments" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webservice1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webservice1" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="RailsProjectView" />
+      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="RailsProjectView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -178,6 +207,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.ruby.settings.RubyActiveModuleSdkConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -199,7 +229,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Rails.Development: webservice1">
+  <component name="RunManager">
     <configuration name="Development: webservice1" type="RailsRunConfigurationType" factoryName="Rails">
       <predefined_log_file id="RUBY_RAILS_SERVER" enabled="true" />
       <module name="webservice1" />
@@ -208,9 +238,10 @@
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
       <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
       <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" track_test_folders="true" runner="rcov">
         <COVERAGE_PATTERN ENABLED="true">
           <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
         </COVERAGE_PATTERN>
@@ -231,9 +262,10 @@
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
       <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
       <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" track_test_folders="true" runner="rcov">
         <COVERAGE_PATTERN ENABLED="true">
           <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
         </COVERAGE_PATTERN>
@@ -253,9 +285,10 @@
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
       <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
       <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" track_test_folders="true" runner="rcov">
         <COVERAGE_PATTERN ENABLED="true">
           <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
         </COVERAGE_PATTERN>
@@ -279,7 +312,7 @@
       </envs>
       <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
       <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" track_test_folders="true" runner="rcov">
         <COVERAGE_PATTERN ENABLED="true">
           <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
         </COVERAGE_PATTERN>
@@ -291,12 +324,15 @@
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
     </configuration>
-    <list>
-      <item itemvalue="Rake.test: webservice1" />
-      <item itemvalue="Rake.spec: webservice1" />
-      <item itemvalue="Rails.Production: webservice1" />
-      <item itemvalue="Rails.Development: webservice1" />
+    <list size="4">
+      <item index="0" class="java.lang.String" itemvalue="Rails.Development: webservice1" />
+      <item index="1" class="java.lang.String" itemvalue="Rails.Production: webservice1" />
+      <item index="2" class="java.lang.String" itemvalue="Rake.spec: webservice1" />
+      <item index="3" class="java.lang.String" itemvalue="Rake.test: webservice1" />
     </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
   </component>
   <component name="SpringUtil" SPRING_PRE_LOADER_OPTION="true" />
   <component name="SvnConfiguration">
@@ -311,35 +347,35 @@
       <updated>1524936376981</updated>
       <workItem from="1524936378256" duration="539000" />
       <workItem from="1524937144291" duration="20225000" />
+      <workItem from="1525068792273" duration="6396000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20764000" />
+    <option name="totallyTimeSpent" value="27160000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1445" height="957" extended-state="0" />
+    <frame x="0" y="23" width="1280" height="732" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.4420131" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2615917" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32932165" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.3295562" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1875" sideWeight="0.49490538" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21953125" sideWeight="0.5050946" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -348,75 +384,83 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.scss">
+    <entry file="file://$PROJECT_DIR$/app/mailers/login_notification_mailer.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+        <state relative-caret-position="153">
+          <caret line="9" column="26" lean-forward="false" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/logins_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="14" lean-forward="false" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="23" lean-forward="false" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/logins/welcome.html.haml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
-          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+          <caret line="5" column="19" lean-forward="false" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
-          <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+          <caret line="3" column="33" lean-forward="false" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
-          <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+          <caret line="18" column="31" lean-forward="false" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/login.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/logins/index.html.haml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
-          <caret line="6" column="42" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
+          <caret line="6" column="42" lean-forward="false" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/_messages.html.haml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
-          <caret line="11" column="71" selection-start-line="11" selection-start-column="71" selection-end-line="11" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/logins/auth.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <caret line="11" column="71" lean-forward="false" selection-start-line="11" selection-start-column="71" selection-end-line="11" selection-end-column="71" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/jobs/application_job.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
@@ -425,51 +469,70 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/application.rb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/login_notification/login_attempt_notification.text.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/login_notification/login_attempt_notification.text.erb" />
+    <entry file="file://$PROJECT_DIR$/app/views/login_notification/login_attempt_notification.html.erb" />
+    <entry file="file://$PROJECT_DIR$/config/application.yml" />
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
+        <state relative-caret-position="408">
+          <caret line="24" column="23" lean-forward="false" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/mailers/application_mailer.rb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/login_notification/login_attempt_notification.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/logins.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="1" lean-forward="false" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/logins/auth.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="8" lean-forward="true" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/mailers/login_notification_mailer.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="73" />
+        <state relative-caret-position="34">
+          <caret line="2" column="37" lean-forward="false" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="37" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/application.yml">
+    <entry file="file://$PROJECT_DIR$/app/views/user_notifier/fail_login_attempt_notification.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+        <state relative-caret-position="68">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/logins_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+        <state relative-caret-position="238">
+          <caret line="14" column="56" lean-forward="false" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="56" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+        <state relative-caret-position="-83">
+          <caret line="64" column="12" lean-forward="false" selection-start-line="64" selection-start-column="12" selection-end-line="64" selection-end-column="12" />
+          <folding />
         </state>
       </provider>
     </entry>
