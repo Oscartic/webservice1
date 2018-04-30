@@ -70,7 +70,7 @@ Rails.application.configure do
   config.action_mailer.default :charset => 'utf8'
   ActionMailer::Base.smtp_settings = {
       :user_name => ['SENDGRID_PASSWORD'],
-      :password => ['SENDGRIG_PASSWORD'],
+      :password => ['SENDGRID_PASSWORD'],
       :address => 'smtp.sendgrid.com',
       :port => 587,
       :authentication => :plain,

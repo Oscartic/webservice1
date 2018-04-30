@@ -1,24 +1,11 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Webservice1
 
-Things you may want to cover:
+Para poder correr el proyecto en un ambiente de desarrollo se requiere: 
 
-* Ruby version
+* Git clone 
 
-* System dependencies
+* Bundle install
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+En el root del proyecto, quedo configurado el form donde se realiza la petición al webservice2. 
