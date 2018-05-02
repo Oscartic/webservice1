@@ -4,19 +4,22 @@
 #   Ensure the SQLite 3 gem is defined in your Gemfile
 #   gem 'sqlite3'
 #
-development:
+
+default: &default
   adapter: postgresql
-  database: my_database_development
-  pool: 5
-  timeout: 5000
-test:
-  adapter: postgresql
-  database: my_database_test
-  pool: 5
+  encoding: unicode
+  username: postgres
+  password: desa
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
   timeout: 5000
 
+development:
+  <<: *default
+  database: my_database_development
+
+test:
+  database: my_database_test
+
+
 production:
-  adapter: postgresql
-  database: my_database_production
-  pool: 5
-  timeout: 5000
+  database: <%= ENV['DATABASE_URL'] %>
