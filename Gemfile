@@ -50,10 +50,13 @@ gem 'bootstrap', '~> 4.0.0.beta2.1'
 gem 'figaro'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
-# Mailgun's Official Ruby Library
-gem 'mailgun-ruby', '~>1.1.6'
+# SendGrids Official Community Led Ruby API Library
+gem 'sendgrid-ruby'
+# ActiveRecord backend integration for DelayedJob 3.0+
+gem 'delayed_job_active_record'
 # Simple Rails app configuration
 gem 'figaro'
+
 group :development, :test do
   # Use sqlite3 as the database for Active Record
   gem 'sqlite3'

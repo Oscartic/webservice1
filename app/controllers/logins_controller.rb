@@ -8,9 +8,9 @@ class LoginsController < ApplicationController
       @img = Login.image_capture(params[:image])
       @response = HTTParty.post("http://www.orbticweb.com/rest/verify_user/#{@mail}", body: {image: @img})
       if @response.code == 401
-        flash[:alert] = "Petición no procesada #{@response.body}"
+        flash[:alert] = "Credenciales de usuario incorrectas. #{@response.body}"
         redirect_to root_path
-        #send mail
+        # send mail
         UserNotifierMailer.fail_login_attempt_notification(@mail).deliver
       else
         UserNotifierMailer.login_successful(@mail).deliver

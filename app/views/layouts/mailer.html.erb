@@ -3,11 +3,58 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <style>
-      /* Email styles need to be inline */
+        body {
+          font-family: "Helvetica Neue", Helvetica, Arial, Sans-Serif;
+        }
+        #head {
+          background-color: #a270c1;
+          width: 100%;
+          height: 10px;
+        }
+        #container {
+          margin: auto;
+          max-width: 80%;
+        }
+        #logo {
+          margin-bottom: 0;
+          color: #727272;
+          letter-spacing: 1px;
+          text-transform: uppercase;
+        }
+        #desc {
+          color: #ababab;
+          font-style: italic;
+          font-weight: initial;
+        }
+        #line {
+          color: #e7e7e7;
+        }
+        #cont h2#alert {
+          color: #da0000;
+          font-weight: 200;
+          margin-bottom: 5px;
+        }
+        #cont h2#success {
+          color: #00b900;
+          font-weight: 200;
+          margin-bottom: 5px;
+        }
+        #cont p {
+          margin-top: 0;
+        }
+
     </style>
   </head>
 
   <body>
-    <%= yield %>
+    <div id="head"></div>
+    <div id="container">
+      <h1 id="logo">Orbticapp</h1>
+      <span id="desc">Sistema de Acceso Biométrico</span>
+      <hr id="line"/>
+      <div id="cont">
+        <%= yield %>
+      </div>
+    </div>
   </body>
 </html>
